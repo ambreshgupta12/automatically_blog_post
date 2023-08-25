@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Chapter Summary
+Use the HTML <map> element to define an image map
+Use the HTML <area> element to define the clickable areas in the image map
+Use the HTML usemap attribute of the <img> element to point to an image map -->
+<body>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT39uw4Gc3d5E9bhXlLECCOcHnBMbX2GzqreGWaI7pKBWBC7TmqFPzLwkOy3m7dLlO0fU&usqp=CAU" alt="not b" usemap="#myusemap",width="200" height="200">
+  <map name="myusemap">
+<area shape="circle" coords="30,30,15" onclick="myFunction()" href="https://www.google.com">
+
+
+  </map>
+  
+  <script>
+
+function myFunction(){
+  alert("You are click in sun region")
+}
+
+
+  </script>
+  <p>asddasd</p>
+
+  <!-- HTML Background Images -->
+
+
+
+
+
+
+
+
+
+
+  <p style="background-image: url('https://images.freeimages.com/images/previews/1c1/links-1242361.jpg');border-radius: 20px; background-size: contain;">
+    You can specify background images<br>
+    for any visible HTML element.<br>
+    In this example, the background image<br>
+    is specified for a p element.<br>
+    By default, the background-image<br>
+    will repeat itself in the direction(s)<br>
+    where it is smaller than the element<br>
+    where it is specified. (Try resizing the<br>
+    browser window to see how the<br>
+    background image behaves.
+    You can specify background images<br>
+    for any visible HTML element.<br>
+    In this example, the background image<br>
+    is specified for a p element.<br>
+    By default, the background-image<br>
+    will repeat itself in the direction(s)<br>
+    where it is smaller than the element<br>
+    where it is specified. (Try resizing the<br>
+    browser window to see how the<br>
+    background image behaves.
+    </p>
+
+    <!-- HTML <picture> Element
+      
+      The HTML <picture> element allows you to display different pictures for different devices or screen sizes.
+    
+    
+    -->
+    <picture>
+      <!-- <source media="(min-width: 650px)" srcset="https://images.freeimages.com/images/previews/1c1/links-1242361.jpg"> -->
+      <source media="(min-width: 465px)" srcset="https://images.freeimages.com/images/previews/1c1/links-1242361.jpg">
+      <img src="https://images.freeimages.com/images/previews/1c1/links-1242361.jpg">
+    </picture>
+
+  
+
+    <!-- HTML Image Tags
+    Tag	Description
+    <img>	Defines an image
+    <map>	Defines an image map
+    <area>	Defines a clickable area inside an image map
+    <picture>	Defines a container for multiple image resources -->
+
+
+
+  
+</body>
+<head>
+  <style>
+    body {
+      background-image: url('img_girl.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+    </style>
+</head>
+</html>
